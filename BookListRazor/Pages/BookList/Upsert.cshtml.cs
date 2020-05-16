@@ -60,7 +60,7 @@ namespace BookListRazor.Pages.BookList
             }
             else
             {
-                return RedirectToPage();
+                return Page();
             }
         }
     }
